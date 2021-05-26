@@ -18,7 +18,7 @@ class CreatePaymentModelsTable extends Migration
             $table->String("name");
             $table->String("course");
             $table->String("fee");
-            $table->String("status");
+           // $table->String("status");
             $table->timestamps();
         });
     }

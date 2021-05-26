@@ -176,7 +176,7 @@ Gender :
 <label class="labelf">   
 Phone :  
 </label>  
-<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="pno" placeholder="Country Code"  value="+91" size="30"/>   <br>
+<input type="tel"  name="pno" placeholder="Country Code"  value="+91" size="30"/>   <br>
 <br>
 <label class="labelf"> 
 Current Address :  

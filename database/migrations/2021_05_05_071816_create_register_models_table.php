@@ -16,7 +16,7 @@ class CreateRegisterModelsTable extends Migration
     {
         Schema::create('register_models', function (Blueprint $table) {
             $table->id();
-            $table->String("lname");
+           // $table->String("lname");
             $table->String("lemail");
             $table->String("lpass");
             $table->timestamps();

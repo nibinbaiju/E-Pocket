@@ -127,10 +127,10 @@ class PaymentController extends Controller
         echo $new_due;
         
        
-            $updatedval = DB::table('register_models')
-            ->join('studentadd_models', 'register_models.lemail', '=', 'studentadd_models.lemail')
-            ->where('register_models.id','=',"$logid")
-            ->update(['studentadd_models.due' => $new_due]);
+            $updatedval = DB::table('studentadd_models')
+            ->join('register_models', 'register_models.lemail', '=', 'studentadd_models.lemail')
+            ->where('register_models.id','=',$logid)
+            ->update(['studentadd_models.due' =>" $new_due"]);
 
         return redirect('/mmm');         
     }

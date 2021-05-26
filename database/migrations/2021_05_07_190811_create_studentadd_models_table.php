@@ -25,6 +25,7 @@ class CreateStudentaddModelsTable extends Migration
             $table->String("cadd");
             $table->String("lemail");
             $table->String("lpass");
+            $table->String("due");
 
             $table->timestamps();
         });

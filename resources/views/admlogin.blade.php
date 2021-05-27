@@ -156,7 +156,7 @@ a {
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Studena</a>
+    <a class="navbar-brand" href="#">E-POCKET</a>
     <button
       class="navbar-toggler"
       type="button"

@@ -28,6 +28,7 @@
     <th scope="row">Phoneno</th>
     <th scope="row">Address</th>
     <th scope="row">Email</th>
+    <th scope="row">Due</th>
    <th></th>
    <th></th>
    
@@ -51,7 +52,8 @@
     <td>{{$add->cadd}}</td>
 
     <td>{{$add->lemail}}</td>
-
+   
+    <td>{{$add->due}}</td>
 
 
     <td><a onclick="return confirm('Are you sure want to delete ?')" class="btn btn-danger" href="/userdeleteprocess/{{$add->id}}">DELETE</a></td>
